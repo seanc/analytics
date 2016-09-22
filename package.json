@@ -1,0 +1,36 @@
+{
+  "name": "analytics",
+  "description": "A discord bot that tracks analytics",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seanc/analytics",
+  "author": "Sean Wilson (https://imsean.me)",
+  "repository": "seanc/analytics",
+  "bugs": {
+    "url": "https://github.com/seanc/analytics/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "analytics"
+  ],
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "discord.js": "^9.2.0",
+    "rc": "^1.1.6",
+    "require-glob": "^3.1.1",
+    "rethinkdb": "^2.3.3",
+    "thinky": "^2.3.6",
+    "winston-color": "^1.0.0"
+  }
+}
